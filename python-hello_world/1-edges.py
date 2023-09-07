@@ -1,8 +1,9 @@
 word = "Holberton"
 print(word[0:3])
-word = "Holberton"
 print(word[7:])
-word = "Holberton"
 print(word[1:8])
 
-1-edges.py
+word = "school"
+print(word[0:3])
+print(word[4:])
+print(word[1:-1])
