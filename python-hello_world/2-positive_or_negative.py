@@ -1,7 +1,9 @@
 import random
-positive = random.randint(1, 10)
-zero = random.randint(0, -0)
-negative = random.randint(-10, 0)
+number = random.randint(0, 10)
+nuMber = random.randint(-10, -1)
+numBer = random.randint(0, 0)
 
 
-print(" {} is positive \n {} is zero \n {} is negative \n" .format(positive, zero ,negative))
+print(" {} positive " .format(number))
+print(" {} negetive " .format(nuMber))
+print(" {} Zero " .format(numBer))
