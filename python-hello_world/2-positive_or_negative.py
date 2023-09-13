@@ -1,9 +1,9 @@
 import random
-number = random.randint(0, 10)
-nuMber = random.randint(-10, -1)
-numBer = random.randint(0, 0)
+number = random.randint(-10, 10)
 
-
-print(" {} positive " .format(number))
-print(" {} negetive " .format(nuMber))
-print(" {} Zero " .format(numBer))
+if number >0:
+    print("\n {} Positive" .format(number))
+elif number<0:
+    print("\n {} Negative" .format(number))
+else:
+    print("\n {} Zero" .format(number))
