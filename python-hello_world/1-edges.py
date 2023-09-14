@@ -1,8 +1,8 @@
-#!/usr/bin/python3
-# YOUR CODE GOES HERE. PLEASE REMOVE THIS LINE
+#python3
 word = "Holberton"
-print("First 3 letters: " +  word[0:-6])
-word = "Holberton"
-print("Last 2 letters: " +  word[7:])
-word = "Holberton"
-print("Middle word:  "  +  word[1:-1])
+word_first_3 = word
+word_last_2 = word
+middle_word = word 
+print("First 3 letters: {}"  .format (word_first_3[0:-6]))
+print("Last 2 letters: {}" .format (word_last_2 [7:]))
+print("Middle word:  {}" .format (middle_word [1:-1]))
